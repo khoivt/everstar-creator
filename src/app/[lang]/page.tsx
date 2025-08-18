@@ -1,5 +1,5 @@
 import Banner from "../../components/home/Banner";
-import ContentBelowBanner from "../../components/home/ContentBeLowBanner";
+import CoreValues from "../../components/home/CoreValues";
 import Infor from "../../components/home/Infor";
 import About from "../../components/home/About";
 import Idol from "../../components/home/Idol";
@@ -29,7 +29,7 @@ export default async function Page({ params }: { params: Promise<{ lang: Locale 
         id="feature"
         className="bg-gray relative lg:h-[441px]"
       >
-        <ContentBelowBanner
+        <CoreValues
           vision={vision}
           mission={mission}
           coreValues={coreValues}

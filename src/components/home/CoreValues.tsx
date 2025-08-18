@@ -54,7 +54,7 @@ function InforItem(props: InforItemProps) {
   );
 }
 
-export default function ContentBelowBanner({
+export default function CoreValues({
   vision,
   mission,
   coreValues,
