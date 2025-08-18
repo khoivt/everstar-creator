@@ -154,7 +154,7 @@ export default function Idol({ title }: { title: string }) {
                 </div>
               </div>
 
-              {/* Nút prev */}
+              {/* Prev button */}
               <div className="absolute top-1/3 left-0 z-10 -translate-x-1/2 -translate-y-1/5">
                 <div
                   onClick={scrollPrev}
@@ -169,7 +169,7 @@ export default function Idol({ title }: { title: string }) {
                 </div>
               </div>
 
-              {/* Nút next */}
+              {/* Next button */}
               <div className="absolute top-1/3 right-0 z-10 translate-x-1/2 -translate-y-1/5">
                 <div
                   onClick={scrollNext}

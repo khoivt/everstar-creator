@@ -17,12 +17,12 @@ export default function Breadcrumb() {
     contact: navbar.contactUs,
     service: navbar.services,
   };
-  // Tách URL thành từng phần, bỏ qua phần rỗng
+  // Split URL into segments, ignore empty parts
   const segments = pathname.replace(/^\//, "").split("/").filter(Boolean);
-  // Loại bỏ lang nếu là segment đầu tiên
+  // Remove lang if it's the first segment
   const filteredSegments = segments[0] === lang ? segments.slice(1) : segments;
 
-  // Tạo danh sách breadcrumb từ các segment
+  // Create breadcrumb list from segments
   const breadcrumbs = filteredSegments.map((segment, index) => {
     const href = `/${lang}/` + filteredSegments.slice(0, index + 1).join("/");
     const label = LABEL[segment] || decodeURIComponent(segment.replace(/-/g, " "));

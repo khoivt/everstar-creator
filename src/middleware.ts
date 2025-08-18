@@ -13,7 +13,7 @@ export async function middleware(request: NextRequest) {
   // Set x-pathname header
   requestHeaders.set("x-pathname", request.nextUrl.pathname);
 
-  // Các trường hợp khác, cho phép request đi qua
+  // Other cases, allow request to pass through
   return NextResponse.next({
     request: {
       headers: requestHeaders,
@@ -23,7 +23,7 @@ export async function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    // Chạy cho tất cả route trừ _next, images, icons, api, static files
+    // Run for all routes except _next, images, icons, api, static files
     "/((?!_next|images|icons|api|static|favicon.ico).*)",
   ],
 };

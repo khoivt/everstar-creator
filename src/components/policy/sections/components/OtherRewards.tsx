@@ -11,14 +11,14 @@ export default async function OtherRewards() {
   
   return (
     <div className="lg:w-section mx-auto flex flex-col gap-12.5">
-      {/* C. CHÍNH SÁCH THƯỞNG KHÁC */}
+      {/* C. OTHER REWARD POLICIES */}
       <div>
         <div className="flex flex-col gap-12.5">
           <h3 className="text-primary1 font-montserrat text-5 md:text-6.5 font font text-center leading-[1] font-extrabold uppercase">
             {dict.bonusPolicy.other.heading}
           </h3>
 
-          {/* THƯỞNG CHUYÊN CẦN */}
+          {/* DILIGENCE REWARD */}
           <ConsistentRewardSection />
         </div>
         <div className="mt-11">
@@ -29,10 +29,10 @@ export default async function OtherRewards() {
         </div>
       </div>
 
-      {/* THƯỞNG BXH ngày */}
+      {/* DAILY RANKING REWARD */}
       <DailyRankingRewardSection />
 
-      {/* THƯỞNG PK */}
+      {/* PK REWARD */}
       <PKRewardSection />
     </div>
   );

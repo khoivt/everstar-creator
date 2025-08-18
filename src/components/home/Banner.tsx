@@ -21,7 +21,7 @@ export default function Banner({ hero }: { hero: Home["hero"] }) {
           start: "top 80%",
           end: "bottom 20%",
           toggleActions: "play none none reverse",
-          // markers: true, // Uncomment để debug
+          // markers: true, // Uncomment for debugging
         },
       });
 
@@ -51,9 +51,9 @@ export default function Banner({ hero }: { hero: Home["hero"] }) {
             alt="Everstar media"
           />
         </div>
-        {/* Vị trí image text giữ nguyên */}
+        {/* Keep image text position unchanged */}
 
-        {/* Layout chính */}
+        {/* Main layout */}
         <div id="main-content">
           <div className="z-10 pt-30 pb-20 md:py-50">
             <div className="mb-6 flex flex-col gap-5.5 md:w-200 lg:mb-[33px]">
@@ -89,7 +89,7 @@ export default function Banner({ hero }: { hero: Home["hero"] }) {
           </div>
         </div>
 
-        {/* Banner image tách riêng khỏi flex, căn phải chính xác */}
+        {/* Banner image separated from flex, aligned right precisely */}
         <div
           id="banner-image"
           className="absolute right-0 bottom-0 hidden md:block lg:-right-10"

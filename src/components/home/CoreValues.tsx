@@ -21,10 +21,10 @@ function InforItem(props: InforItemProps) {
   const { title, description, icon, highlight = false, className } = props;
   return (
     <div className={clsx("relative flex flex-col items-center", className)}>
-      {/* Icon hình tròn nổi lên */}
+      {/* Circular floating icon */}
 
       <div className="-top-0 z-10 md:absolute"></div>
-      {/* Box nội dung */}
+      {/* Content box */}
       <div
         className={`rounded-5 flex h-80 w-full flex-col items-center pt-10 pb-5 text-center shadow-md sm:h-60 lg:h-full lg:pt-20 ${
           highlight ? "bg-primary1" : "bg-dark"
@@ -91,17 +91,17 @@ ${coreValues.qualityOverSpeed}`,
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: containerRef.current,
-          start: "top 85%", // Bắt đầu sớm hơn khi top của element cách viewport 85%
-          end: "center center", // Kết thúc khi center element đến center viewport
+          start: "top 85%", // Start earlier when top of element is 85% from viewport
+          end: "center center", // End when element center reaches viewport center
           toggleActions: "play none none reverse",
-          // markers: true, // Uncomment để debug
+          // markers: true, // Uncomment for debugging
         },
       });
 
       tl.fromTo(
         ".infor-item",
         { y: 50, opacity: 0 }, // From state
-        { y: 0, opacity: 1, duration: 0.5, ease: "power2.out", stagger: 0.1 }, // Duration ngắn hơn và stagger nhanh hơn
+        { y: 0, opacity: 1, duration: 0.5, ease: "power2.out", stagger: 0.1 }, // Shorter duration and faster stagger
       );
     },
     { scope: containerRef },

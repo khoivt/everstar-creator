@@ -17,7 +17,7 @@ export default function CultureSection({ data }: CultureSectionProps) {
         alt="Everstar media"
       />
       <div className="flex flex-col items-center gap-4 lg:flex-row lg:gap-14.5">
-        {/* BOX bên phải */}
+        {/* Right box */}
         <div className="flex w-full flex-col gap-2.5 lg:w-1/2">
           <div className="flex flex-col gap-[15px] lg:text-left">
             <SectionTitle title={data.title} />
@@ -29,7 +29,7 @@ export default function CultureSection({ data }: CultureSectionProps) {
           </p>
         </div>
 
-        {/* BOX bên trái - YouTube Video */}
+        {/* Left box - YouTube Video */}
         <div className="w-full">
           <div className="aspect-video w-full">
             <iframe

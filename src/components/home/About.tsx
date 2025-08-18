@@ -17,11 +17,11 @@ export default function About({ about }: { about: { title: string; description: 
         start: "top 80%",
         end: "bottom 20%",
         toggleActions: "play none none reverse",
-        // markers: true, // Uncomment để debug
+        // markers: true, // Uncomment for debugging
       }
     });
 
-    // Animation float từ dưới lên
+    // Float animation from bottom to top
     tl.addLabel("start")
     .fromTo(
       "#left-content",
@@ -33,7 +33,7 @@ export default function About({ about }: { about: { title: string; description: 
       "#right-content", 
       { x: 100, opacity: 0 },
       { x: 0, opacity: 1, duration: 1, ease: "power2.out" },
-      "start" // Cùng label = cùng thời điểm
+      "start" // Same label = same timing
     );
   }, { scope: containerRef });
   return (
@@ -41,9 +41,9 @@ export default function About({ about }: { about: { title: string; description: 
       <div ref={containerRef} className="section mx-auto grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28.25">
         {/* Left content */}
         <div id="left-content" className="flex flex-col gap-6.25 md:pt-32">
-          {/* Tiêu đề */}
+          {/* Title */}
           <SectionTitle title={about.title} />
-          {/* Đoạn văn mô tả */}
+          {/* Description paragraph */}
           <div className="font-montserrat text-4.5 flex flex-col gap-7.5 text-justify leading-[1.2] font-normal text-black">
             {about.description.map((desc, idx) => (
               <p key={idx}>{desc}</p>

@@ -20,7 +20,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Log để debug
+    // Log for debugging
     console.log('Attempting to save to Google Sheets:', {
       name: body.name,
       phone: `'${body.phone}`,
@@ -39,7 +39,7 @@ export async function POST(request: NextRequest) {
 
     const sheets = google.sheets({ version: 'v4', auth });
 
-    // Thêm dữ liệu vào Google Sheet
+    // Add data to Google Sheet
     const result = await sheets.spreadsheets.values.append({
       spreadsheetId: process.env.GOOGLE_SHEET_ID,
       range: 'A:E',

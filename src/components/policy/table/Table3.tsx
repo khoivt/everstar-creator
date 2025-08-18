@@ -8,7 +8,7 @@ export default async function Table3() {
   // Extract rows to reduce nested path
   const diligenceRows = dict.bonusPolicy.other.diligence.table.rows;
   
-  // Chỉ giữ lại className dùng ở nhiều chỗ
+  // Only keep className used in multiple places
   const tdClass = "w-fit lg:w-62.5 border-black border text-center font-bold text-lg md:text-2xl leading-5 bg-white py-2";
 
   // Header data
