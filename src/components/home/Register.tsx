@@ -29,7 +29,7 @@ const InputField = ({ type, placeholder, required = true, name, value, onChange 
     onChange={onChange}
     placeholder={placeholder}
     required={required}
-    className="text-dark3 font-montserrat text-4.5 placeholder-dark3 w-full rounded-full border-none bg-white px-8 py-4 text-base leading-[1] outline-none md:px-10 lg:py-5.5"
+    className="text-dark3   text-4.5 placeholder-dark3 w-full rounded-full border-none bg-white px-8 py-4 text-base leading-[1] outline-none md:px-10 lg:py-5.5"
   />
 );
 
@@ -139,7 +139,7 @@ const RegisterForm = ({ fields, buttonText }: { fields: Home["registerForm"]["fi
       <button
         type="submit"
         disabled={isSubmitting}
-        className="text-primary1 font-montserrat text-4 md:text-5 mt-[31px] h-[63px] cursor-pointer rounded-full border border-none bg-white px-8 py-3 text-center leading-[1] font-black uppercase sm:py-5 md:px-12 disabled:opacity-50 disabled:cursor-not-allowed"
+        className="text-primary1   text-4 md:text-5 mt-[31px] h-[63px] cursor-pointer rounded-full border border-none bg-white px-8 py-3 text-center leading-[1] font-black uppercase sm:py-5 md:px-12 disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {isSubmitting ? 'Đang gửi...' : buttonText}
       </button>
@@ -160,7 +160,7 @@ export default function Register({ registerForm }: { registerForm: Home["registe
         <div className="grid w-full grid-cols-1 gap-10 md:grid-cols-2 lg:gap-17">
           {/* Left Section - Text Content */}
           <div className="">
-            <p className="font-montserrat text-2xl leading-[1.3] font-extrabold text-white uppercase sm:text-3xl lg:text-4xl">
+            <p className="  text-2xl leading-[1.3] font-extrabold text-white uppercase sm:text-3xl lg:text-4xl">
               {registerForm.slogan}
             </p>
           </div>

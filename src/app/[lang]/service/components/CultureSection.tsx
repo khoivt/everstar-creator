@@ -21,10 +21,10 @@ export default function CultureSection({ data }: CultureSectionProps) {
         <div className="flex w-full flex-col gap-2.5 lg:w-1/2">
           <div className="flex flex-col gap-[15px] lg:text-left">
             <SectionTitle title={data.title} />
-            <p className="text-dark2 font-montserrat text-5 lg:text-5.5 leading-[1] font-extrabold">{data.subtitle}</p>
+            <p className="text-dark2   text-5 lg:text-5.5 leading-[1] font-extrabold">{data.subtitle}</p>
           </div>
 
-          <p className="font-montserrat lg:text-4.5 text-4 text-dark2 text-justify leading-[1.2] font-medium">
+          <p className="  lg:text-4.5 text-4 text-dark2 text-justify leading-[1.2] font-medium">
             {data.description}
           </p>
         </div>

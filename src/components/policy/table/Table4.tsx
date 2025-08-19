@@ -10,10 +10,10 @@ export default async function Table4() {
   
   // Header data
   const tableHeaders = [
-    { label: dict.bonusPolicy.other.dailyRanking.table.headers[0], className: "border border-dark text-center font-bold w-fit md:w-[140px] text-lg md:text-2xl py-2 px-4 font-montserrat text-white bg-primary1" },
+    { label: dict.bonusPolicy.other.dailyRanking.table.headers[0], className: "border border-dark text-center font-bold w-fit md:w-[140px] text-lg md:text-2xl py-2 px-4   text-white bg-primary1" },
     {
       label: dict.bonusPolicy.other.dailyRanking.table.headers[1],
-      className: "border border-dark text-center font-bold w-fit md:w-[231px] text-lg md:text-2xl py-5 px-2 font-montserrat text-white bg-primary1",
+      className: "border border-dark text-center font-bold w-fit md:w-[231px] text-lg md:text-2xl py-5 px-2   text-white bg-primary1",
     },
   ];
 
@@ -39,8 +39,8 @@ export default async function Table4() {
                 key={index}
                 className="bg-white"
               >
-                <td className="border border-dark px-2 md:px-6 py-5 text-left font-bold text-4.5 md:text-5.5 leading-5 font-montserrat">{row.ranking}</td>
-                <td className="border border-dark px-2 md:px-4 py-6 text-center font-bold text-4.5 md:text-5.5 leading-5 font-montserrat">{row.reward}</td>
+                <td className="border border-dark px-2 md:px-6 py-5 text-left font-bold text-4.5 md:text-5.5 leading-5  ">{row.ranking}</td>
+                <td className="border border-dark px-2 md:px-4 py-6 text-center font-bold text-4.5 md:text-5.5 leading-5  ">{row.reward}</td>
               </tr>
             ))}
           </tbody>

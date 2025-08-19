@@ -10,7 +10,7 @@ export default async function NewIdolReward() {
   return (
     <div className="mb-15 flex flex-col gap-14">
       <div className="flex flex-col items-center gap-10">
-        <h3 className="text-primary1 font-montserrat text-5 md:text-6.5 font font text-center leading-[1] font-extrabold uppercase">
+        <h3 className="text-primary1   text-5 md:text-6.5 font font text-center leading-[1] font-extrabold uppercase">
           {dict.bonusPolicy.newIdol.heading}
         </h3>
         <div className="w-full flex items-center justify-center">

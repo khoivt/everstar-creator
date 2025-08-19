@@ -44,7 +44,7 @@ export default function About({ about }: { about: { title: string; description: 
           {/* Title */}
           <SectionTitle title={about.title} />
           {/* Description paragraph */}
-          <div className="font-montserrat text-4.5 flex flex-col gap-7.5 text-justify leading-[1.2] font-normal text-black">
+          <div className="  text-4.5 flex flex-col gap-7.5 text-justify leading-[1.2] font-normal text-black">
             {about.description.map((desc, idx) => (
               <p key={idx}>{desc}</p>
             ))}

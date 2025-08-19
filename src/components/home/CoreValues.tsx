@@ -44,8 +44,8 @@ function InforItem(props: InforItemProps) {
           />
         </div>
         <div className="mt-4 flex flex-col gap-[11px] px-4 sm:px-8">
-          <p className="font-montserrat md:text-6.5 text-lg leading-[1] font-black text-white uppercase">{title}</p>
-          <p className="font-montserrat text-4 md:text-4.5 text-justify font-medium whitespace-pre-line text-white">
+          <p className="  md:text-6.5 text-lg leading-[1] font-black text-white uppercase">{title}</p>
+          <p className="  text-4 md:text-4.5 text-justify font-medium whitespace-pre-line text-white">
             {description}
           </p>
         </div>

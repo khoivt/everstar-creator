@@ -14,7 +14,7 @@ export default async function OtherRewards() {
       {/* C. OTHER REWARD POLICIES */}
       <div>
         <div className="flex flex-col gap-12.5">
-          <h3 className="text-primary1 font-montserrat text-5 md:text-6.5 font font text-center leading-[1] font-extrabold uppercase">
+          <h3 className="text-primary1   text-5 md:text-6.5 font font text-center leading-[1] font-extrabold uppercase">
             {dict.bonusPolicy.other.heading}
           </h3>
 

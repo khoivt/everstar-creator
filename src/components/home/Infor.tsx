@@ -59,8 +59,8 @@ export default function Infor({ stats }: { stats: Home["stats"] }) {
               key={index}
               className="stat-item rounded-5 flex h-36.5 flex-col items-center justify-center gap-2.5 bg-[url('/images/bg-infor-item.png')] bg-cover bg-no-repeat py-4 text-center text-white md:h-48 lg:h-69"
             >
-              <p className="font-montserrat text-10 md:text-16 leading-[1.4] font-black">{item.value}</p>
-              <p className="font-montserrat max-w-75 text-xl leading-[1.4] font-extrabold whitespace-pre-line uppercase md:text-[26px]">
+              <p className="  text-10 md:text-16 leading-[1.4] font-black">{item.value}</p>
+              <p className="  max-w-75 text-xl leading-[1.4] font-extrabold whitespace-pre-line uppercase md:text-[26px]">
                 {item.label}
               </p>
             </div>

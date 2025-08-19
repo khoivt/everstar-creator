@@ -18,13 +18,16 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Loc
   };
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{ lang: Locale }>;
 }>) {
+  const { lang } = await params;
   return (
-    <html>
+    <html lang={lang}>
       <body>
         <ReactLenis
           root

@@ -116,10 +116,10 @@ export default function Idol({ title }: { title: string }) {
                           className="rounded-5 relative border border-none"
                           alt={`Everstar media - ${idol.name}`}
                         />
-                        <p className="font-montserrat text-dark2 text-8 mt-[31px] mb-[6px] leading-[1] font-black uppercase">
+                        <p className="  text-dark2 text-8 mt-[31px] mb-[6px] leading-[1] font-black uppercase">
                           {idol.name}
                         </p>
-                        <p className="font-montserrat text-dark3 mb-[17px] text-[22px] leading-[1] font-normal">
+                        <p className="  text-dark3 mb-[17px] text-[22px] leading-[1] font-normal">
                           {idol.description}
                         </p>
                         <div className="items-centers flex gap-1">

@@ -154,7 +154,7 @@ export default function Benefit({ benefit }: { benefit: Home["benefits"] }) {
                 </div>
                 <div className="top-71 left-28 md:absolute">
                   <p
-                    className={`font-montserrat text-5 flex items-center leading-[1.2] font-extrabold uppercase md:w-50 md:text-[22px]`}
+                    className={`  text-5 flex items-center leading-[1.2] font-extrabold uppercase md:w-50 md:text-[22px]`}
                   >
                     <span className="text-primary1 mr-2 block whitespace-nowrap uppercase md:hidden">
                       {id + 1} -{" "}
@@ -162,7 +162,7 @@ export default function Benefit({ benefit }: { benefit: Home["benefits"] }) {
                     {item.title}
                   </p>
                   <p
-                    className={`font-montserrat ${benefitItems[id].marginTop} text-4.5 leading-[1.2] font-normal italic md:w-[173px]`}
+                    className={`  ${benefitItems[id].marginTop} text-4.5 leading-[1.2] font-normal italic md:w-[173px]`}
                   >
                     {item.description}
                   </p>

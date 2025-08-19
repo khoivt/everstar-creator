@@ -28,13 +28,13 @@ const BlogCard = ({ post }: { post: BlogPost }) => {
       </div>
       <div className="flex flex-col gap-[23px]">
         <div className="flex flex-col justify-center gap-[7px] pl-[30px]">
-          <p className="font-montserrat text-dark2 text-[26px] leading-[1.3] font-bold">{post.title}</p>
-          <p className="font-montserrat text-4.5 leading-[1] font-normal text-[#505050]">{post.description}</p>
+          <p className="  text-dark2 text-[26px] leading-[1.3] font-bold">{post.title}</p>
+          <p className="  text-4.5 leading-[1] font-normal text-[#505050]">{post.description}</p>
         </div>
         <div>
           <Link
             href={post.link}
-            className="font-montserrat text-primary1 text-4.5 block w-full pl-[30px] font-normal"
+            className="  text-primary1 text-4.5 block w-full pl-[30px] font-normal"
           >
             See more &gt;
           </Link>

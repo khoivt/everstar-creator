@@ -57,7 +57,7 @@ export default function Banner({ hero }: { hero: Home["hero"] }) {
         <div id="main-content">
           <div className="z-10 pt-30 pb-20 md:py-50">
             <div className="mb-6 flex flex-col gap-5.5 md:w-200 lg:mb-[33px]">
-              <p className="font-montserrat max-w-100 text-xl leading-[1.4] font-black whitespace-pre-line text-white uppercase sm:max-w-150 md:text-2xl lg:max-w-200 lg:text-5xl">
+              <p className="  max-w-100 text-xl leading-[1.4] font-black whitespace-pre-line text-white uppercase sm:max-w-150 md:text-2xl lg:max-w-200 lg:text-5xl">
                 {hero.title}
               </p>
             </div>
@@ -70,7 +70,7 @@ export default function Banner({ hero }: { hero: Home["hero"] }) {
                     className="flex items-center gap-3"
                   >
                     <div className="h-2 w-2 rotate-45 bg-white"></div>
-                    <p className="font-montserrat text-xl font-bold text-white md:text-2xl md:font-black">{text}</p>
+                    <p className="  text-xl font-bold text-white md:text-2xl md:font-black">{text}</p>
                   </li>
                 ))}
               </ul>

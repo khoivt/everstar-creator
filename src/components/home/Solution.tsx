@@ -23,8 +23,8 @@ function ServiceCard({ icon, title, description }: { icon: string; title: string
         />
       </div>
       <div className="flex flex-col gap-[6px]">
-        <p className="font-montserrat text-5 text-dark2 text-center leading-[1.1] font-bold uppercase">{title}</p>
-        <p className="font-montserrat text-4.5 text-dark3 text-center leading-[1] font-medium whitespace-nowrap">
+        <p className="  text-5 text-dark2 text-center leading-[1.1] font-bold uppercase">{title}</p>
+        <p className="  text-4.5 text-dark3 text-center leading-[1] font-medium whitespace-nowrap">
           {description}
         </p>
       </div>
@@ -54,7 +54,7 @@ function SolutionCard({ icon, title, vectorSrc }: { icon: string; title: string;
         />
       </div>
       <div className="absolute top-20 max-w-[70%] sm:top-25 lg:top-[119px]">
-        <p className="font-montserrat text-4.5 md:text-5 text-center leading-[1.2] font-extrabold uppercase">{title}</p>
+        <p className="  text-4.5 md:text-5 text-center leading-[1.2] font-extrabold uppercase">{title}</p>
       </div>
     </div>
   );

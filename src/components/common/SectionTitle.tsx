@@ -6,7 +6,7 @@ const SectionTitle = ({ title, isHighlight }: { title: string; isHighlight?: boo
       <div className={clsx("bg-dark h-7 w-3 translate-y-1 md:!w-4", isHighlight && "bg-white")}></div>
       <p
         className={clsx(
-          "font-montserrat text-primary1 lg:text-10 flex-1 text-2xl leading-[1.2] font-black uppercase",
+          "  text-primary1 lg:text-10 flex-1 text-2xl leading-[1.2] font-black uppercase",
           isHighlight && "text-white",
         )}
       >

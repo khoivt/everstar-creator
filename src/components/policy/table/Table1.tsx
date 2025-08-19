@@ -17,7 +17,7 @@ export default async function Table1() {
             {tableHeaders.map((header, idx) => (
               <th
                 key={idx}
-                className="font-montserrat w-fit md:w-62.5 border border-black py-6 text-center text-lg md:text-2xl leading-[1.3] font-extrabold"
+                className="  w-fit md:w-62.5 border border-black py-6 text-center text-lg md:text-2xl leading-[1.3] font-extrabold"
               >
                 {header}
               </th>

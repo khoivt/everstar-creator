@@ -21,7 +21,7 @@ export default function StrategySection({ data }: StrategySectionProps) {
         >
           <div className={clsx("flex flex-col justify-center gap-[25px] lg:w-1/2")}>
             <SectionTitle title={item.title} />
-            <p className="font-montserrat lg:text-4.5 text-4 text-dark2 leading-[1.2] font-medium">
+            <p className="  lg:text-4.5 text-4 text-dark2 leading-[1.2] font-medium">
               {item.description}
             </p>
           </div>

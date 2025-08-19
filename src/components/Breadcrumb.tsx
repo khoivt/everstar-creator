@@ -30,7 +30,7 @@ export default function Breadcrumb() {
   });
 
   return (
-    <nav className="section font-montserrat mt-8 !mb-0 !py-0 text-lg leading-[1] font-normal text-[#333333] md:mt-12 md:text-2xl">
+    <nav className="section   mt-8 !mb-0 !py-0 text-lg leading-[1] font-normal text-[#333333] md:mt-12 md:text-2xl">
       <Link
         href={`/${lang}`}
         className="hover:text-primary1"

@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 @import "tailwindcss";
 @import "tw-animate-css";
@@ -38,7 +37,7 @@
   --radius-12.5: 50px;
   --text-5.5: 22px;
   --text-6.5: 26px;
-  --font-montserrat: "Noto Sans KR", "sans-serif";
+  --font-notosansKr: "Noto Sans KR", "sans-serif";
   --font-inter: "Inter", "sans-serif";
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
@@ -149,7 +148,7 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground font-montserrat;
+    @apply bg-background text-foreground font-notosansKr;
   }
 }
 

@@ -30,8 +30,8 @@ const RecruitmentCard = ({ item }: RecruitmentCardProps) => {
 
       {/* Text Section */}
       <div className="px-2 py-[25px] md:px-7.5">
-        <h2 className="font-montserrat text-dark2 text-xl leading-[1.3] font-bold md:text-[26px]">{item.title}</h2>
-        <p className="font-montserrat text-4 md:text-4.5 line-clamp-3 overflow-hidden leading-[1.2] font-normal text-[#505050] lg:w-[305px]">
+        <h2 className="  text-dark2 text-xl leading-[1.3] font-bold md:text-[26px]">{item.title}</h2>
+        <p className="  text-4 md:text-4.5 line-clamp-3 overflow-hidden leading-[1.2] font-normal text-[#505050] lg:w-[305px]">
           {item.description}
         </p>
       </div>
@@ -47,7 +47,7 @@ export default async function RecruimentContent() {
       <div className="section flex flex-col gap-12.5">
         <div className="flex items-center gap-3.75">
           <div className="bg-dark h-7 w-4.75"></div>
-          <h2 className="font-montserrat text-primary1 text-5 md:text-6.5 lg:text-10 leading-[1.3] font-black uppercase">
+          <h2 className="  text-primary1 text-5 md:text-6.5 lg:text-10 leading-[1.3] font-black uppercase">
             {dict.recruitment.heading}
           </h2>
         </div>

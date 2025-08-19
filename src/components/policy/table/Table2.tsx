@@ -10,17 +10,17 @@ export default async function Table2() {
   
   // Header data
   const tableHeaders = [
-    { label: dict.bonusPolicy.revenue.table.headers[0], props: { rowSpan: 2, className: "border border-black text-center font-bold w-fit lg:w-[200px] h-28 text-white py-6 font-montserrat text-lg md:text-2xl uppercase" } },
-    { label: dict.bonusPolicy.revenue.table.headers[1], props: { colSpan: 2, className: "border border-black text-center font-bold text-white font-montserrat text-lg md:text-2xl py-6 uppercase w-fit lg:w-[600px]" } },
-    { label: dict.bonusPolicy.revenue.table.headers[3], props: { rowSpan: 2, className: "border border-black text-center font-bold w-fit lg:w-60 p-2 text-white font-montserrat text-lg md:text-2xl uppercase" } },
+    { label: dict.bonusPolicy.revenue.table.headers[0], props: { rowSpan: 2, className: "border border-black text-center font-bold w-fit lg:w-[200px] h-28 text-white py-6   text-lg md:text-2xl uppercase" } },
+    { label: dict.bonusPolicy.revenue.table.headers[1], props: { colSpan: 2, className: "border border-black text-center font-bold text-white   text-lg md:text-2xl py-6 uppercase w-fit lg:w-[600px]" } },
+    { label: dict.bonusPolicy.revenue.table.headers[3], props: { rowSpan: 2, className: "border border-black text-center font-bold w-fit lg:w-60 p-2 text-white   text-lg md:text-2xl uppercase" } },
     {
       label: dict.bonusPolicy.revenue.table.headers[4],
-      props: { rowSpan: 2, className: "border border-black text-center font-bold w-fit lg:w-60 p-2 text-white font-montserrat text-lg md:text-2xl uppercase" },
+      props: { rowSpan: 2, className: "border border-black text-center font-bold w-fit lg:w-60 p-2 text-white   text-lg md:text-2xl uppercase" },
     },
   ];
   const tableSubHeaders = [
-    { label: dict.bonusPolicy.revenue.table.subHeaders[0], className: "border border-black text-center font-bold text-white w-fit lg:w-[300px] h-20 font-montserrat text-lg md:text-2xl uppercase p-2" },
-    { label: dict.bonusPolicy.revenue.table.subHeaders[1], className: "border border-black text-center font-bold text-white w-fit lg:w-[300px] h-20 font-montserrat text-lg md:text-2xl uppercase p-2" },
+    { label: dict.bonusPolicy.revenue.table.subHeaders[0], className: "border border-black text-center font-bold text-white w-fit lg:w-[300px] h-20   text-lg md:text-2xl uppercase p-2" },
+    { label: dict.bonusPolicy.revenue.table.subHeaders[1], className: "border border-black text-center font-bold text-white w-fit lg:w-[300px] h-20   text-lg md:text-2xl uppercase p-2" },
   ];
 
   return (
