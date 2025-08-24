@@ -41,23 +41,25 @@ export default function Banner({ hero }: { hero: Home["hero"] }) {
     <>
       <div
         ref={containerRef}
-        className="section relative mx-auto overflow-hidden"
+        className="section relative"
       >
-        <div className="absolute top-25 mr-10 md:top-[165px]">
-          <Image
-            src="/images/text-banner.png"
-            width={613}
-            height={78}
-            alt="Everstar media"
-          />
-        </div>
-        {/* Keep image text position unchanged */}
 
         {/* Main layout */}
-        <div id="main-content">
+        <div
+          id="main-content"
+          className="relative"
+        >
+          <div className="absolute md:left-10 scale-110 top-26 md:top-[165px] md:scale-150">
+            <Image
+              src="/images/text-banner.png"
+              width={613}
+              height={78}
+              alt="Everstar media"
+            />
+          </div>
           <div className="z-10 pt-30 pb-20 md:py-50">
             <div className="mb-6 flex flex-col gap-5.5 md:w-200 lg:mb-[33px]">
-              <p className="  max-w-100 text-xl leading-[1.4] font-black whitespace-pre-line text-white uppercase sm:max-w-150 md:text-2xl lg:max-w-200 lg:text-5xl">
+              <p className="max-w-100 text-xl leading-[1.4] font-black whitespace-pre-line text-white uppercase sm:max-w-150 md:text-2xl lg:max-w-200 lg:text-5xl">
                 {hero.title}
               </p>
             </div>
@@ -70,7 +72,7 @@ export default function Banner({ hero }: { hero: Home["hero"] }) {
                     className="flex items-center gap-3"
                   >
                     <div className="h-2 w-2 rotate-45 bg-white"></div>
-                    <p className="  text-xl font-bold text-white md:text-2xl md:font-black">{text}</p>
+                    <p className="text-xl font-bold text-white md:text-2xl md:font-black">{text}</p>
                   </li>
                 ))}
               </ul>
@@ -98,7 +100,7 @@ export default function Banner({ hero }: { hero: Home["hero"] }) {
             src="/images/banner.png"
             width={1025}
             height={953}
-            className="md:w-150 lg:w-full"
+            className="md:w-150 "
             alt="Everstar media"
           />
         </div>
