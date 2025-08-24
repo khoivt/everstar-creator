@@ -9,7 +9,7 @@ export default {
     description:
       'Everstar Media\'s culture is built on respect, trust, and the development of individual capabilities. We prioritize quality, responsibility, and kindness, creating conditions for each member to shine and contribute to collective success. "Build to debut" – our philosophy of purposeful preparation, discipline, and self-development, aiming towards stepping onto the stage with pride. Each debut is the result of systematic shaping and professional training. With global and Korean style, we build premium brands, training idols/KOLs from zero. "We don\'t just recruit idols. We build them."',
     image: "/images/service/bg-service_en.png",
-    videoUrl: "https://www.youtube.com/embed/Vt4kAu-ziRY",
+    videoUrl: "https://www.youtube.com/embed/1FJ5VNOFzG4?si=hCbRt57sN19iGEmD",
   },
   problems: {
     title: "Problems/Pain Points of New Idols Eager to Pursue Livestreaming Careers",

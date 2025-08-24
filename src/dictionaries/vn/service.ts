@@ -9,7 +9,7 @@ export default {
     description:
       'Văn hóa Everstar Media xây dựng trên sự tôn trọng, niềm tin và phát huy năng lực cá nhân. Chúng tôi đặt chất lượng, trách nhiệm và sự tử tế lên hàng đầu, tạo điều kiện để mỗi thành viên tỏa sáng và đóng góp vào thành công chung. "Build to debut" – triết lý của chúng tôi về sự chuẩn bị có chủ đích, kỷ luật và phát triển bản thân, hướng đến mục tiêu bước lên sân khấu với niềm tự hào. Mỗi màn ra mắt là kết quả của sự định hình và đào tạo bài bản. Với phong cách toàn cầu và Hàn Quốc, chúng tôi xây dựng thương hiệu cao cấp, đào tạo thần tượng/KOL từ con số 0. "Chúng tôi không chỉ tuyển dụng thần tượng. Chúng tôi xây dựng họ."',
     image: "/images/service/bg-service_vn.png",
-    videoUrl: "https://www.youtube.com/embed/Vt4kAu-ziRY",
+    videoUrl: "https://www.youtube.com/embed/1FJ5VNOFzG4?si=hCbRt57sN19iGEmD",
   },
   problems: {
     title: "Vấn đề/nỗi đau của các Idol mới đang khao khát theo đuổi sự nghiệp livestream",

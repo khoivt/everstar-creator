@@ -74,39 +74,39 @@ export default {
     ],
   },
   businessSolution: {
-    title: "Giải pháp tiếp thị, truyền thông & thương mại toàn diện",
+    title: "Comprehensive marketing, communication & commerce solutions",
     items: [
       {
         icon: "/images/brand-link-icon.png",
-        title: "Kết nối nhãn hàng",
+        title: "Brand connection",
       },
       {
         icon: "/images/creativity-icon.png",
-        title: "Đồng hành & sáng tạo",
+        title: "Companionship & creativity",
       },
       {
         icon: "/images/strategy-icon.png",
-        title: "Xây dựng chiến lược",
+        title: "Strategy building",
       },
       {
         icon: "/images/campaign-icon.png",
-        title: "Triển khai chiến dịch",
+        title: "Campaign implementation",
       },
       {
         icon: "/images/brand-develop-icon.png",
-        title: "Phát triển thương hiệu",
+        title: "Brand development",
       },
     ],
     services: [
       {
         icon: "/images/brand-service-icon.png",
-        title: "Dịch vụ nhãn hàng",
-        description: "Kết nối, Đồng hành, Sáng Tạo",
+        title: "Brand services",
+        description: "Connection, Companionship, Creativity",
       },
       {
         icon: "/images/creator-support-icon.png",
-        title: "Hỗ trợ nhà sáng tạo",
-        description: "Tìm Kiếm, Đào Tạo, Phát Triển",
+        title: "Creator support",
+        description: "Searching, Training, Development",
       },
     ],
   },

@@ -9,7 +9,7 @@ export default {
     description:
       'Everstar Media의 문화는 존중, 신뢰, 개인 역량 발휘를 바탕으로 구축됩니다. 우리는 품질, 책임감, 친절함을 최우선으로 하여 각 구성원이 빛나고 공동의 성공에 기여할 수 있는 조건을 만듭니다. "Build to debut" – 목적 있는 준비, 규율, 자기 개발에 대한 우리의 철학으로, 자부심을 가지고 무대에 오르는 것을 목표로 합니다. 각각의 데뷔는 체계적인 형성과 전문적인 훈련의 결과입니다. 글로벌하고 한국적인 스타일로 프리미엄 브랜드를 구축하고, 제로부터 아이돌/KOL을 훈련시킵니다. "우리는 단순히 아이돌을 모집하지 않습니다. 우리가 그들을 만듭니다."',
     image: "/images/service/bg-service_ko.png",
-    videoUrl: "https://www.youtube.com/embed/Vt4kAu-ziRY",
+    videoUrl: "https://www.youtube.com/embed/1FJ5VNOFzG4?si=hCbRt57sN19iGEmD",
   },
   problems: {
     title: "라이브스트리밍 경력을 추구하고자 하는 신인 아이돌들의 문제점/고민",
