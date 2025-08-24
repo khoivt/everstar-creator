@@ -14,7 +14,7 @@ export default function CultureSection({ data }: CultureSectionProps) {
         width={1280}
         height={550}
         className=""
-        alt="Everstar media"
+        alt="Service Banner"
       />
       <div className="flex flex-col items-center gap-4 lg:flex-row lg:gap-14.5">
         {/* Right box */}
@@ -24,13 +24,13 @@ export default function CultureSection({ data }: CultureSectionProps) {
             <p className="text-dark2   text-5 lg:text-5.5 leading-[1] font-extrabold">{data.subtitle}</p>
           </div>
 
-          <p className="  lg:text-4.5 text-4 text-dark2 text-justify leading-[1.2] font-medium">
+          <p className="  lg:text-4.5 text-4 text-dark2 leading-[1.2] font-medium">
             {data.description}
           </p>
         </div>
 
         {/* Left box - YouTube Video */}
-        <div className="w-full">
+        <div className="w-1/2">
           <div className="aspect-video w-full">
             <iframe
               className="h-full w-full rounded-lg"
